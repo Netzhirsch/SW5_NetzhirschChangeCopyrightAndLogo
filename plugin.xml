@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Copyright und Footer Logo ändern</label>
+    <label lang="en">Change copyright and footer logo</label>
+
+    <version>1.0.1</version>
+    <copyright>Copyright (c) 2021, Netzhirsch GbR</copyright>
+    <license>proprietär</license>
+    <link>https://netzhirsch.de</link>
+    <author>Netzhirsch GbR</author>
+    <compatibility minVersion="5.2.0"/>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung des Plugins.</changes>
+        <changes lang="en">Initial Release of the plugin.</changes>
+    </changelog>
+
+    <changelog version="1.0.1">
+        <changes lang="de">Kompatibilität zu Shopware 5.7 hergestellt.</changes>
+        <changes lang="en">Compatibility with Shopware 5.7 established.</changes>
+    </changelog>
+
+    <description>
+        <![CDATA[
+        Changes the footer
+             <br>
+             1. Delete the footer logo
+             <br>
+             2. Adjust the size of the footer logo, thumbnail sizes from 0-2 see media management
+             <br>
+             3. Set your own Footer logo
+             <br>
+             4. Set alternative text for the Footer logo
+             <br>
+             5. Set hover title for the footer logo
+             <br>
+             6. Replace copyright text in Rich Text Editor
+             <br>
+             7. Adjust alignment (disclaimer, copyright and logo side by side or below each other)
+             <br>
+             8. Set the order
+        ]]>
+    </description>
+    <description lang="de">
+        <![CDATA[
+            Verändert den Footer
+            <br>
+            1. Footer Logo löschen
+            <br>
+            2. Größe des Footer Logo anpassen, Thumbnail Größen von 0-2 siehe Medienverwaltung
+            <br>
+            3. Eigenes Footer Logo einstellen
+            <br>
+            4. Alternative Text für das Footer Logo setzen
+            <br>
+            5. Hover Titel für das Footer Logo setzen
+            <br>
+            6. Copyright Text ersetzen im Rich-Text Editor
+            <br>
+            7. Ausrichtung einstellen (Disclaimer, Copyright und Logo nebeneinander oder untereinander)
+            <br>
+            8. Reihenfolge einstellen
+        ]]>
+    </description>
+
+</plugin>

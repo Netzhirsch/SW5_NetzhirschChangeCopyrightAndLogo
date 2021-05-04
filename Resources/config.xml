@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="boolean" scope="shop">
+            <name>hideFooterLogo</name>
+            <label>Hide Footer Logo</label>
+            <label lang="de">Footer Logo ausblenden</label>
+        </element>
+        <element type="select" scope="shop">
+            <name>footerLogoSize</name>
+            <label>Footer Logo Size</label>
+            <label lang="de">Footer Logo Größe</label>
+            <value>original</value>
+            <description>Details refer to thumbnail sizes in Media Management</description>
+            <description lang="de">Angaben beziehen sich auf die Thumbnail-Größen in der Medienverwaltung</description>
+            <store>
+                <option>
+                    <value>original</value>
+                    <label>Original Size</label>
+                    <label lang="de">Original-Größe</label>
+                </option>
+                <option>
+                    <value>thumbnail_0</value>
+                    <label>Thumbnail-Size 0</label>
+                    <label lang="de">Thumbnail-Größe 0</label>
+                </option>
+                <option>
+                    <value>thumbnail_1</value>
+                    <label>Thumbnail-Size 1</label>
+                    <label lang="de">Thumbnail-Größe 1</label>
+                </option>
+                <option>
+                    <value>thumbnail_2</value>
+                    <label>Thumbnail-Size 2</label>
+                    <label lang="de">Thumbnail-Größe 2</label>
+                </option>
+            </store>
+        </element>
+        <element type="mediaselection" scope="shop">
+            <name>footerLogo</name>
+            <label>Footer Logo Image/Icon</label>
+            <label lang="de">Footer Logo Bild/Icon</label>
+        </element>
+        <element type="text" scope="shop">
+            <name>footerLogoAlt</name>
+            <label>Footer Logo Image/Icon: alternative Text</label>
+            <label lang="de">Footer Logo Bild/Icon: alternativer Text</label>
+            <value>Netzhirsch GbR</value>
+            <description>important for SEO</description>
+            <description lang="de">wichtig für SEO</description>
+        </element>
+        <element type="text" scope="shop">
+            <name>footerLogoTitle</name>
+            <label>Footer Logo Image/Icon: hover title</label>
+            <label lang="de">Footer Logo Bild/Icon: Hover Titel</label>
+            <value>Netzhirsch GbR</value>
+            <description>important for SEO</description>
+            <description lang="de">wichtig für SEO</description>
+        </element>
+        <element type="html" scope="shop">
+            <name>copyright</name>
+            <label>Copyright Text</label>
+            <label lang="de">Copyright Text</label>
+            <value><![CDATA[<space>]]></value>
+            <description>{year} Placeholder, replace "implemented with shopware"</description>
+            <description lang="de">{year} Platzhalter, ersetzte "Realisiert mit Shopware"</description>
+        </element>
+        <element type="select" scope="shop">
+            <name>direction</name>
+            <label>Direction</label>
+            <label lang="de">Ausrichtung</label>
+            <value>horizontal</value>
+            <store>
+                <option>
+                    <value>horizontal</value>
+                    <label>Horizontal</label>
+                    <label lang="de">Horizontal</label>
+                </option>
+                <option>
+                    <value>vertical</value>
+                    <label>Vertical</label>
+                    <label lang="de">Vertikal</label>
+                </option>
+            </store>
+        </element>
+        <element type="select" scope="shop">
+            <name>order</name>
+            <label>Order</label>
+            <label lang="de">Reihenfolge</label>
+            <value>disclaimerCopyrightLogo</value>
+            <store>
+                <option>
+                    <value>disclaimerCopyrightLogo</value>
+                    <label>Disclaimer Copyright Logo</label>
+                </option>
+                <option>
+                    <value>disclaimerLogoCopyright</value>
+                    <label>Disclaimer Logo Copyright</label>
+                </option>
+                <option>
+                    <value>copyrightDisclaimerLogo</value>
+                    <label>Copyright Disclaimer Logo</label>
+                </option>
+                <option>
+                    <value>copyrightLogoDisclaimer</value>
+                    <label>Copyright Logo Disclaimer</label>
+                </option>
+                <option>
+                    <value>logoDisclaimerCopyright</value>
+                    <label>Logo Disclaimer Copyright</label>
+                </option>
+                <option>
+                    <value>logoCopyrightDisclaimer</value>
+                    <label>Logo Copyright Disclaimer</label>
+                </option>
+            </store>
+        </element>
+    </elements>
+</config>
